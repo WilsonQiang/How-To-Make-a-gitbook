@@ -2,6 +2,21 @@
 	"title": "如何编写gitbook电子书",
 	"description": "gitbook电子书教程",
 	"author": "WilsonQiang",
-	"language": "zh-hans"
+	"language": "zh-hans",
+	"plugins": [
+		"donate",
+		"back-to-top-button"
+    ],
 
+    "pluginsConfig": {
+        "donate": {
+            "wechat": "images/IMG_wechatpay.jpg",
+            "alipay": "images/IMG_alipay.jpg",
+            "title": "",
+            "button": "打赏",
+            "alipayText": "支付宝打赏",
+            "wechatText": "微信打赏"
+        }
+    }
+	
 }
